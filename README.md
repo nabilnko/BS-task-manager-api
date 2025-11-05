@@ -31,46 +31,6 @@ A robust RESTful API built with Spring Boot for efficient task management operat
 
 ---
 
-## 🏗️ Project Architecture
-
-TaskManager/
-│
-├── src/
-│ ├── main/
-│ │ ├── java/com/example/taskmanager/
-│ │ │ ├── config/
-│ │ │ │ └── OpenAPIConfig.java → OpenAPI/Swagger configuration
-│ │ │ ├── controller/
-│ │ │ │ └── TaskController.java → REST endpoints handler
-│ │ │ ├── entity/
-│ │ │ │ └── Task.java → Task entity with JPA annotations
-│ │ │ ├── exception/
-│ │ │ │ ├── GlobalExceptionHandler.java → Centralized error handling
-│ │ │ │ └── ResourceNotFoundException.java → Custom 404 exception
-│ │ │ ├── repository/
-│ │ │ │ └── TaskRepository.java → JPA repository interface
-│ │ │ ├── service/
-│ │ │ │ └── TaskService.java → Business logic layer
-│ │ │ └── TaskManagerApplication.java → Spring Boot main class
-│ │ │
-│ │ └── resources/
-│ │ ├── static/ → Static resources
-│ │ ├── templates/ → Template files
-│ │ └── application.properties → Application configuration
-│ │
-│ └── test/
-│ └── java/com/example/taskmanager/
-│ └── TaskManagerApplicationTests.java → Unit tests
-│
-├── .mvn/ → Maven wrapper files
-├── target/ → Compiled classes (ignored)
-├── .gitignore → Git exclusion rules
-├── HELP.md → Maven/Spring Boot help
-├── mvnw → Maven wrapper (Unix)
-├── mvnw.cmd → Maven wrapper (Windows)
-├── pom.xml → Maven dependencies
-└── README.md → Project documentation
----
 
 ## 🛠️ Technology Stack
 
